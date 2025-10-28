@@ -1,0 +1,25 @@
+{
+  "name": "cycles",
+  "version": "1.0.0",
+  "description": "cycles rest api lib",
+  "keywords": [
+    "rest",
+    "api",
+    "lib",
+    "cycles"
+  ],
+  "license": "MIT",
+  "author": "teymur.salimzade@gmail.com",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
