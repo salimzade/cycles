@@ -2,6 +2,8 @@
   "name": "cycles",
   "version": "1.0.0",
   "description": "cycles rest api lib",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "keywords": [
     "rest",
     "api",
@@ -10,16 +12,18 @@
   ],
   "license": "MIT",
   "author": "teymur.salimzade@gmail.com",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "ts-node src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "devDependencies": {
     "@types/node": "^24.9.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

@@ -1,0 +1,7 @@
+src/
+node_modules/
+tsconfig.json
+*.log
+*.test.ts
+.gitignore
+README_draft.md
