@@ -1,14 +1,16 @@
 {
-  "name": "cycles",
+  "name": "@paradigmallc/cycles",
   "version": "1.0.0",
-  "description": "cycles rest api lib",
+  "description": "Ultra-lightweight, type-safe HTTP framework for Node.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "keywords": [
-    "rest",
-    "api",
-    "lib",
-    "cycles"
+    "http",
+    "cycles",
+    "framework",
+    "typescript",
+    "router",
+    "microservices"
   ],
   "license": "MIT",
   "author": "teymur.salimzade@gmail.com",
