@@ -1,9 +1,10 @@
 {
   "name": "@paradigmallc/cycles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ultra-lightweight, type-safe HTTP framework for Node.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": ["dist"],
   "keywords": [
     "http",
     "cycles",
